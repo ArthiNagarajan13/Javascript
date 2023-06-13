@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Check if the number is odd or even or leap!!!</h2>
+
+    <script>
+        let x=10;
+        let y=29;
+        let output1, output2;
+
+        let res1 = x % 2;
+        let res2 = y % 2;
+
+        console.log(res1);
+        if (res1 == 0) {
+            output1 = "The number  X is even !"
+        }
+        else {
+            output1 = "The number X is odd !"
+        }
+        console.log(output1);
+
+        console.log(res2);
+        if (res2 == 0) {
+            output2 = "The number Y is even !"
+        }
+        else {
+            output2 = "The number Y is odd !"
+        }
+        console.log(output2);
+
+        // Check if year is leap
+
+        let a=2008;
+        let b=2043;
+        let output3, output4;
+
+        let res3 = a % 4; 
+        let res4 = b % 4;
+
+        if (res3 == 0) {
+            output3 = "The given year "  + a  + " is leap !"
+        }
+        else {
+            output3 = "The given year " + a + " is not leap !"
+        }
+        console.log(output3);
+
+        
+        if (res4 == 0) {
+            output4 = "The given year " + b + " is leap !"
+        }
+        else {
+            output4 = "The given year " + b + " is not leap !"
+        }
+        console.log(output4);
+
+
+    </script>
+</body>
+</html>

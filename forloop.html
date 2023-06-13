@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> FOR LOOP </h2>
+    <script>
+
+        // Even number 
+        var i, num, temp;
+
+        // num=prompt("Enter the number");
+
+        // for(i=0; i<=num; i++)
+        // {
+        //     temp = i % 2;
+
+        //     if (temp == 0)
+        //     {
+        //         console.log(i);
+        //     }
+        // }
+
+        // Numbers from 1 to 50
+
+        // for (i=1; i<=50; i++)
+        // {
+        //     console.log(i);
+        // }
+
+
+
+        // Prime Number
+
+        // var j=0;
+        // num=prompt("Enter the number");
+
+        // if (num == 1)
+        // {
+        //     console.log("1 is neither prime nor composite number");
+        // }
+
+        // else if (num > 2)
+        // {
+        //     for (i=2; i<num; i++)
+        //     {
+        //         if (num % i == 0)
+        //         {
+        //             j = j+1;
+        //             // break;
+        //         }
+
+        //     }
+        // }
+
+        // if((j == 0) && (num != 1))
+        // {
+        //     console.log("The number " + num + " is prime");
+        // }
+        // else if ((j > 0) && (num != 1)) {
+        //     console.log("The number " + num + " is not prime");
+        // }
+
+
+        // factorial
+
+        // var number, fact=1;
+
+        // number = prompt("Enter= the number");
+
+        // for (i=1; i<=number; i++)
+        // {
+        //     fact = fact * i;
+        // }
+
+        // if (number == 0)
+        // {
+        //     console.log("Factorial is 0 !!");
+        // }
+        // else
+        // {
+        //     console.log("Factorial is " + fact);
+        // }
+
+        // SUM of the numbers upto 'n'
+
+        var count, temp=0;
+
+        count = prompt("Enter the number");
+
+        for (i=0; i<=count; i++)
+        {
+            temp = temp + i;
+        }
+
+        console.log(temp);
+
+
+        // FIbonacci Series
+
+        var  a1=0, a2=1, a3, fib;
+        fib = prompt("Enter the number");
+
+        for (i=0; i<=fib; i++)
+        {
+            a3 = a1 + a2;
+            a1 = a2;
+            a2 = a3;
+            console.log(a3);
+
+        }
+    </script>
+</body>
+</html>

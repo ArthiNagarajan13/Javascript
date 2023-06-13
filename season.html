@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Program to find the season based on the month !! </h2>
+
+    <script>
+        let month, season;
+
+        month = prompt ("Enter the month","month here");
+
+        if (month=="december" || month =="january" || month =="february")
+        {
+            season = month + " falls on winter season !!! "
+        }
+        else if (month == "march" || month=="april" || month=="may")
+        {
+            season = month + " falls on spring season !!!"
+        }
+        else if (month == "june" || month == "july" || month == "august")
+        {
+            season = month + " falls on summer season !!!"
+        }
+        else if (month == "september" || month == "october" || month == "november")
+        {
+            season = month + " falls on autumn season !!!"
+        }
+        else {
+            season = "Warning ! Enter correct month !!"
+        }
+
+        console.log (season);
+
+    </script>
+</body>
+</html>
