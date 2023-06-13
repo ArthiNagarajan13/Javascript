@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Array Iteration Methods </h2>
+    <script>
+
+        // FOR OF 
+        let language = "JavaScript";
+
+let text = "";
+for (let x of language) {
+text += x;
+}
+console.log(text);
+
+
+const cars = ["BMW", "Volvo", "Mini"];
+
+let text1 = "";
+for (let x of cars) {
+  text1 += x ;
+}
+
+console.log(text1);
+
+const array=["arthi","prem","vidya"];
+
+for (let ardata of array) {
+    console.log(ardata);
+}
+
+const array1=["class","group","id","element"];
+
+for(let array2 of array1){
+    console.log(array2,"FOR OF");
+}
+
+
+// FOR IN 
+const array3=["class2","group2","id2","element2"];
+
+for(let array4 in array3){
+    console.log(array4,"for in",array3[array4]);
+}
+
+
+
+
+//FOR EACH 
+
+array3.forEach((result1) => {
+    console.log(result1,"for each");
+})
+
+
+// MAP()
+
+var value1=[100,200,300,400];
+
+const result2=value1.map((res) => {
+    console.log(res * 2);
+})
+
+
+
+// FILTER()
+
+
+// const myobj = [ {name: 'aaa', age: 18},
+// {name:'arthi', age:12},
+// {name:'prem', age:16}
+// ];
+
+// var result3 = myobj.filter(data => {data.age > 15});
+
+// console.log(data)
+
+let memage=[12,34,56,42,86,26,53,12,9,50];
+
+let elders = memage.filter(checkage);
+console.log(elders);
+
+function checkage(ages){
+    // return ages > 18;
+    if (ages > 18)
+    { 
+    console.log(ages);
+    }
+}
+
+
+
+//REDUCE()
+
+
+    </script>
+</body>
+</html>
